@@ -35,7 +35,7 @@ ifneq ($(strip $(TARGET_DIR)),)
 	@echo "---- Copying libloragw files to $(TARGET_DIR)"
 	@mkdir -p $(TARGET_DIR)
 	@cp test_loragw_* $(TARGET_DIR)
-	@cp ../tools/reset_lgw.sh $(TARGET_DIR
+	@cp ../tools/reset_lgw.sh $(TARGET_DIR)
 else
 	@echo "ERROR: TARGET_DIR is not configured in target.cfg"
 endif
